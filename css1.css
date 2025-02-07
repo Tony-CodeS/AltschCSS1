@@ -1,0 +1,41 @@
+body{
+    background: black;
+     font-family: "Avenir Next", "Nunito Sans", ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+.parentDiv {
+    background: white;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 100px 90px;
+    position: relative; /* Establish a positioning context for child elements */
+}
+
+.pinkChild {
+    background: #ec4f92;
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+    top: -20px; /* Move the child div up by 20px */
+    left: 50%; /* Center the child div horizontally */
+    transform: translateX(-50%); /* Adjust for exact centering */
+    width: 90%; /* Set the width to 90% of the parent */
+    /* height: 50px;  */
+}
+
+.textDiv{
+    position: absolute;
+    bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(24, 24, 24);
+    line-height: 26.6px;
+    left: 50%; /* Center the child div horizontally */
+    transform: translateX(-50%); /* Adjust for exact centering */
+    width: 90%; /* Set the width to 90% of the parent */
+   
+
+}
+
+
